@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loogin</title>
+</head>
+<style type="text/css">
+	.hd
+		{
+			background-color: rgb(242, 242, 14);
+			display: inline-block;
+			width: 100%;
+			height: 150px;
+		}
+	body
+	{
+		margin: 0;
+		padding: 0;
+	
+	}
+	#logo4
+	{
+		width: 100%;
+		height: 640px;
+		position: relative;
+		top: -5px;
+	}
+	#login  {
+        width: 600px;
+        height: 300px;
+        margin: 150px auto;
+        padding: 50px;
+        background-color: #fff;
+        border-radius: 10%;
+        position: relative;
+        top: -690px;
+        margin-left: 100px;;
+
+         }
+         #head1{
+
+            color: 8e8080;
+            margin-left: 250px;
+         }
+         .box{
+
+            width: 250px;
+            height: 30px;
+            margin-left: 175px;
+         }
+         #boxpassword{
+
+            margin-top: 20px;
+
+         }
+         #boxlogin{
+
+           margin-top: 20px;
+            margin-left: 250px;
+            background-color: #5d17b7;
+            color: white;
+            padding: 7px 30px;
+
+         }
+         .radiobtn
+	     {
+	     	margin-left: 200px;
+	     }
+	     .text1
+	     {
+	     	font-size: 40px;
+	     	margin-left: 400px;
+	     }
+       
+</style>
+<body>
+	<div class="hd">
+		<h3 class="text1">Welcome  to Employee Management System</h3>
+	</div>
+	<div>
+		<img src="logo4.jpg" id="logo4">
+		<div id="login">
+	<h1 id="head1">SIGN IN</h1>
+
+        <form><input type="text" class="box" placeholder="User_Name"></form>
+
+        <form><input type="text" class="box" id="boxpassword" placeholder="Password"></form>
+
+        <form>
+        	<p class="radiobtn">Admin: <input type="radio" name="admin">
+
+        	Employee: <input type="radio" name="admin"></p>
+        </form>
+
+        <input type="submit" id="boxlogin" value="Login">
+
+        </div>
+	</div>
+	
+</body>
+</html>

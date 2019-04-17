@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Delete-employee</title>
+	<style type="text/css">
+			body
+	{
+		margin: 0;
+		padding: 0;
+		
+	}
+	#topbar
+	{
+		height:150px; 
+		width:100%;
+		background-color: rgb(160, 37, 232);
+		position: relative;
+		top: -30px;
+	}
+	#text1
+	{
+		margin-left: 610px;
+		color: white;
+		font-size: 30px;
+		padding-top: 25px;
+	}
+	#home	
+	{
+		padding: 8px 20px;
+	    background-color: yellow;
+	    position: relative;
+	    top: 100px;
+	    margin-left: 20px;
+	    margin-top: -15px;
+	 }
+	 #logout
+	 {
+
+		padding: 8px 10px;
+	    background-color: yellow;
+	    position: relative;
+	    top: -60px;
+	    margin-left: 1480px;
+	}		
+	#logo4
+	{
+		width: 100%;
+		height: 660px;
+		position: relative;
+		top: -30px;
+	}
+	#login  {
+        width: 600px;
+        height: 300px;
+        margin: 150px auto;
+        padding: 50px;
+        background-color: #fff;
+        border-radius: 10%;
+        position: relative;
+        top: -690px;
+        margin-left: 100px;;
+
+         }
+        
+	     #text
+	     {
+	     	font-size: 25px;
+	     	margin-left: 200px;
+	     }
+	     #searchbox
+	     {
+	     	padding: 8px 40px;
+	     	margin-top: 20px;
+	     	margin-left: 150px
+	     }
+	     #searchbtn
+	     {
+	     	padding: 8px 20px;
+	     	margin-top: 20px;
+	     	background-color: yellow
+	     }
+	</style>
+</head>
+<body>
+
+	<div id="topbar">
+		<input type="submit" name="home" value="Home" id="home">
+		<p id="text1">Employee Management System</p>
+		<input type="submit" name="logout" value="Logout" id="logout">
+	</div>
+	<div>
+		<img src="logo4.jpg" id="logo4">
+		<div id="login">
+		
+			<div>
+				<div id="text">
+				Search by: 
+				<select name="option">
+					<option>Emp_Id</option>
+					<option>First_Name</option>
+					<option>last_Name</option>
+					<option>Department</option>
+					<option>Grade</option>
+					<option> Marital_Status</option>	
+				</select><br>
+				</div>
+				<input type="text" name="search" id="searchbox">
+				<input type="submit" name="searchbtn" value="Delete" id="searchbtn"><br>
+			</div>
+
+        </div>
+	</div>
+</body>
+</html>
